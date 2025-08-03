@@ -1,5 +1,5 @@
 .main-header{
-    background-image: url('assets/photos/main-bg.svg');
+    background-image: url('/assets/photos/main-bg.svg');
     background-size: cover;
     color: white;
     background-position: center;
