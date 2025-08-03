@@ -1,0 +1,1005 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Dosis:wght@200..800&family=Quicksand:wght@300..700&family=Raleway:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+        integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link href="/assets/css/index.css" rel="stylesheet">
+    <link href="/assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+    <header>
+
+    </header>
+
+
+    <main>
+
+
+
+
+
+        <section class="main-header ">
+            <canvas id="netCanvas" style="position: absolute; top: 0; left: 0; height: 550px; width: 100%;"></canvas>
+
+
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-8 ">
+                        <p class="mb-0 text-decoration-underline"
+                            style="font-weight: 1000; font-size: 80px; line-height: 0.9;">Fullstack</p>
+
+                        <p class="fs-1 fw-semibold mb-0">Ly Quang Cuong</p>
+
+                        <p class="typewriter fs-5 ">
+                            Tôi là <span id="type-target"
+                                class="fw-semibold fs-4 text-decoration-underline"></span><span id="cursor"
+                                class="text-secondary fs-4">|</span>
+                        </p>
+
+                        <p class=" rounded p-1">Tôi là Web Developer Fullstack (Java Spring Boot,
+                            HTML5-CSS3-JS, Bootstrap, MySQL,... ). Đây là CV cá nhân – nơi tôi chia sẻ kiến thức lập
+                            trình, nhận thiết kế và bán website theo yêu cầu.
+
+                        </p>
+
+                        <button class="btn-cssbuttons rounded">
+                            <span>Liên hệ ngay</span>
+                            <span class="material-symbols-outlined">
+                                arrow_outward
+                            </span>
+                            <ul>
+                                <li>
+                                    <a href="https://twitter.com/SumethWrrn"
+                                        class="fs-4 text-light text-decoration-none w-100 h-100 d-flex justify-content-center align-items-center">
+                                        <i class="fa-brands fa-square-facebook"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://codepen.io/sharpth"
+                                        class="fs-4 text-light text-decoration-none w-100 h-100 d-flex justify-content-center align-items-center">
+                                        <i class="fa-brands fa-telegram"></i></a>
+                                </li>
+                                <li>
+                                    <a href="https://github.com/SharpTH"
+                                        class="fs-4 text-light text-decoration-none w-100 h-100 d-flex justify-content-center align-items-center">
+                                        <i class="fa-brands fa-square-instagram"></i>
+                                    </a>
+                                </li>
+                            </ul>
+                        </button>
+
+
+
+
+
+
+
+
+                    </div>
+
+                    <div class="col-12 col-md-4  position-relative pt-5">
+                        <div class="floating-circle"></div>
+
+                        <div class="my-photo">
+
+                            <img src="/assets/photos/me.jpg" class="w-100 h-100 object-fit-cover">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mb-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12 col-md-5 mb-5">
+                        <div class="p-2 rounded card-custom d-flex align-items-center flex-column">
+
+
+                            <h4 class="fw-bold mb-0 d-flex align-items-center">Ly Quang Cuong <img
+                                    src="/assets/photos/tick.png" class="ms-1" style="width: 18px;"></h4>
+                            <p>Web developer</p>
+
+
+                            <div
+                                class="rounded bg-light p-2 w-100 d-flex align-items-center justify-content-between mb-1">
+                                <div class="d-flex align-items-center">
+                                    <span class="material-symbols-outlined px-2">
+                                        mail
+                                    </span>
+                                    <span>Cuongly.dev@gmail.com</span>
+                                </div>
+                                <a class="btn btn-dark btn-sm d-flex"><span class="material-symbols-outlined">
+                                        open_in_new
+                                    </span></a>
+
+                            </div>
+
+                            <div
+                                class="rounded bg-light p-2 w-100 d-flex align-items-center  justify-content-between mb-1">
+                                <div class="d-flex align-items-center">
+                                    <span class="material-symbols-outlined px-2">
+                                        perm_phone_msg
+                                    </span>
+
+                                    <span>0334366722</span>
+                                </div>
+
+
+                                <a class="btn btn-dark btn-sm d-flex"><span class="material-symbols-outlined">
+                                        open_in_new
+                                    </span></a>
+                            </div>
+
+                            <div style="height: 50px;"
+                                class="rounded bg-light p-2 w-100 d-flex align-items-center  justify-content-between mb-1">
+                                <div class="d-flex align-items-center">
+                                    <span class="material-symbols-outlined px-2">
+                                        distance
+                                    </span>
+
+                                    <span>Da Nang, Viet Nam</span>
+                                </div>
+
+
+
+                            </div>
+
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-7">
+
+                        <div class="parent">
+                            <div class="child child-1">
+                                <button class="button btn-1">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 512 512"
+                                        fill="#1e90ff">
+                                        <path
+                                            d="M459.37 151.716c.325 4.548.325 9.097.325 13.645 0 138.72-105.583 298.558-298.558 298.558-59.452 0-114.68-17.219-161.137-47.106 8.447.974 16.568 1.299 25.34 1.299 49.055 0 94.213-16.568 130.274-44.832-46.132-.975-84.792-31.188-98.112-72.772 6.498.974 12.995 1.624 19.818 1.624 9.421 0 18.843-1.3 27.614-3.573-48.081-9.747-84.143-51.98-84.143-102.985v-1.299c13.969 7.797 30.214 12.67 47.431 13.319-28.264-18.843-46.781-51.005-46.781-87.391 0-19.492 5.197-37.36 14.294-52.954 51.655 63.675 129.3 105.258 216.365 109.807-1.624-7.797-2.599-15.918-2.599-24.04 0-57.828 46.782-104.934 104.934-104.934 30.213 0 57.502 12.67 76.67 33.137 23.715-4.548 46.456-13.32 66.599-25.34-7.798 24.366-24.366 44.833-46.132 57.827 21.117-2.273 41.584-8.122 60.426-16.243-14.292 20.791-32.161 39.308-52.628 54.253z">
+                                        </path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="child child-2">
+                                <button class="button btn-2">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 448 512"
+                                        fill="#ff00ff">
+                                        <path
+                                            d="M224.1 141c-63.6 0-114.9 51.3-114.9 114.9s51.3 114.9 114.9 114.9S339 319.5 339 255.9 287.7 141 224.1 141zm0 189.6c-41.1 0-74.7-33.5-74.7-74.7s33.5-74.7 74.7-74.7 74.7 33.5 74.7 74.7-33.6 74.7-74.7 74.7zm146.4-194.3c0 14.9-12 26.8-26.8 26.8-14.9 0-26.8-12-26.8-26.8s12-26.8 26.8-26.8 26.8 12 26.8 26.8zm76.1 27.2c-1.7-35.9-9.9-67.7-36.2-93.9-26.2-26.2-58-34.4-93.9-36.2-37-2.1-147.9-2.1-184.9 0-35.8 1.7-67.6 9.9-93.9 36.1s-34.4 58-36.2 93.9c-2.1 37-2.1 147.9 0 184.9 1.7 35.9 9.9 67.7 36.2 93.9s58 34.4 93.9 36.2c37 2.1 147.9 2.1 184.9 0 35.9-1.7 67.7-9.9 93.9-36.2 26.2-26.2 34.4-58 36.2-93.9 2.1-37 2.1-147.8 0-184.8zM398.8 388c-7.8 19.6-22.9 34.7-42.6 42.6-29.5 11.7-99.5 9-132.1 9s-102.7 2.6-132.1-9c-19.6-7.8-34.7-22.9-42.6-42.6-11.7-29.5-9-99.5-9-132.1s-2.6-102.7 9-132.1c7.8-19.6 22.9-34.7 42.6-42.6 29.5-11.7 99.5-9 132.1-9s102.7-2.6 132.1 9c19.6 7.8 34.7 22.9 42.6 42.6 11.7 29.5 9 99.5 9 132.1s2.7 102.7-9 132.1z">
+                                        </path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="child child-3">
+                                <button class="button btn-3">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 496 512">
+                                        <path
+                                            d="M165.9 397.4c0 2-2.3 3.6-5.2 3.6-3.3.3-5.6-1.3-5.6-3.6 0-2 2.3-3.6 5.2-3.6 3-.3 5.6 1.3 5.6 3.6zm-31.1-4.5c-.7 2 1.3 4.3 4.3 4.9 2.6 1 5.6 0 6.2-2s-1.3-4.3-4.3-5.2c-2.6-.7-5.5.3-6.2 2.3zm44.2-1.7c-2.9.7-4.9 2.6-4.6 4.9.3 2 2.9 3.3 5.9 2.6 2.9-.7 4.9-2.6 4.6-4.6-.3-1.9-3-3.2-5.9-2.9zM244.8 8C106.1 8 0 113.3 0 252c0 110.9 69.8 205.8 169.5 239.2 12.8 2.3 17.3-5.6 17.3-12.1 0-6.2-.3-40.4-.3-61.4 0 0-70 15-84.7-29.8 0 0-11.4-29.1-27.8-36.6 0 0-22.9-15.7 1.6-15.4 0 0 24.9 2 38.6 25.8 21.9 38.6 58.6 27.5 72.9 20.9 2.3-16 8.8-27.1 16-33.7-55.9-6.2-112.3-14.3-112.3-110.5 0-27.5 7.6-41.3 23.6-58.9-2.6-6.5-11.1-33.3 2.6-67.9 20.9-6.5 69 27 69 27 20-5.6 41.5-8.5 62.8-8.5s42.8 2.9 62.8 8.5c0 0 48.1-33.6 69-27 13.7 34.7 5.2 61.4 2.6 67.9 16 17.7 25.8 31.5 25.8 58.9 0 96.5-58.9 104.2-114.8 110.5 9.2 7.9 17 22.9 17 46.4 0 33.7-.3 75.4-.3 83.6 0 6.5 4.6 14.4 17.3 12.1C428.2 457.8 496 362.9 496 252 496 113.3 383.5 8 244.8 8zM97.2 352.9c-1.3 1-1 3.3.7 5.2 1.6 1.6 3.9 2.3 5.2 1 1.3-1 1-3.3-.7-5.2-1.6-1.6-3.9-2.3-5.2-1zm-10.8-8.1c-.7 1.3.3 2.9 2.3 3.9 1.6 1 3.6.7 4.3-.7.7-1.3-.3-2.9-2.3-3.9-2-.6-3.6-.3-4.3.7zm32.4 35.6c-1.6 1.3-1 4.3 1.3 6.2 2.3 2.3 5.2 2.6 6.5 1 1.3-1.3.7-4.3-1.3-6.2-2.2-2.3-5.2-2.6-6.5-1zm-11.4-14.7c-1.6 1-1.6 3.6 0 5.9 1.6 2.3 4.3 3.3 5.6 2.3 1.6-1.3 1.6-3.9 0-6.2-1.4-2.3-4-3.3-5.6-2z">
+                                        </path>
+                                    </svg>
+                                </button>
+                            </div>
+                            <div class="child child-4">
+                                <button class="button btn-4">
+                                    <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 320 512"
+                                        fill="#4267B2">
+                                        <path
+                                            d="M279.14 288l14.22-92.66h-88.91v-60.13c0-25.35 12.42-50.06 52.24-50.06h40.42V6.26S260.43 0 225.36 0c-73.22 0-121.08 44.38-121.08 124.72v70.62H22.89V288h81.39v224h100.17V288z">
+                                        </path>
+                                    </svg>
+                                </button>
+                            </div>
+
+
+
+
+                            <a href="#" class="child child-1">
+                                <button class="button btn-4">
+                                    <img src="/assets/photos/zalo-icon.webp" style="height: 32px; width: 32px;">
+
+
+                                </button>
+                            </a>
+
+                        </div>
+
+                        <div class="mt-3">
+
+                            <h3 class="fw-bold">Tôi là một Web Developer – Xây dựng dự án web từ ý tưởng đến triển khai
+                            </h3>
+
+                            <p>
+                                Tôi là một lập trình viên web fullstack, chuyên thiết kế và phát triển các hệ thống web
+                                hiện đại với Java Spring Boot, Bootstrap, MySQL và các công nghệ web phổ biến khác. Tôi
+                                có kinh nghiệm trong việc xây dựng toàn bộ quy trình phát triển – từ thiết kế giao diện
+                                người dùng (UI), xử lý logic phía backend, đến quản lý cơ sở dữ liệu và triển khai hệ
+                                thống thực tế.
+                            </p>
+                            <p>
+                                Tôi luôn đặt mục tiêu tạo ra các sản phẩm ổn định, dễ mở rộng và thân thiện với người
+                                dùng. Website này là nơi tôi chia sẻ các dự án cá nhân, kiến thức tích lũy được trong
+                                quá trình làm việc và những bước tiến trên hành trình trở thành một lập trình viên
+                                chuyên nghiệp.
+                            </p>
+
+                            <div class="rounded shadow-sm bg-body-secondary p-2 ">
+                                <div class="row ">
+                                    <div class="col-12 col-md-4 text-center">
+                                        <h1 class=" mb-0">
+                                            <span class="purecounter" data-purecounter-start="0"
+                                                data-purecounter-end="50" data-purecounter-duration="2"></span>
+                                            <span>+</span>
+                                        </h1>
+                                        <span class="text-secondary">Dự án đã hoàn thành</span>
+                                    </div>
+
+                                    <div class="col-12 col-md-4 text-center">
+                                        <h1 class=" mb-0">
+                                            <span class="purecounter" data-purecounter-start="0"
+                                                data-purecounter-end="2" data-purecounter-duration="2"></span>
+                                            <span>+</span>
+                                        </h1>
+                                        <span class="text-secondary">Năm kinh nghiệm</span>
+                                    </div>
+
+                                    <div class="col-12 col-md-4 text-center">
+                                        <h1 class=" mb-0">
+                                            <span class="purecounter" data-purecounter-start="0"
+                                                data-purecounter-end="95" data-purecounter-duration="2"></span>
+                                            <span>%</span>
+                                        </h1>
+                                        <span class="text-secondary">Khách hàng hài lòng</span>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="row mt-3">
+                            <div class="col-12 col-md-6">
+                                <p class="text-secondary mb-0">Chuyên môn</p>
+                                <h6 class="fw-bold">Thiết kế và phát triển website</h6>
+                            </div>
+                            <div class="col-12 col-md-6">
+                                <p class="text-secondary mb-0">Mức độ kinh nghiệm</p>
+                                <h6 class="fw-bold">Junior Fullstack Developer</h6>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <p class="text-secondary mb-0">Giáo dục</p>
+                                <h6 class="fw-bold">CNTT - Ứng dụng phần mềm</h6>
+                            </div>
+
+                            <div class="col-12 col-md-6">
+                                <p class="text-secondary mb-0">Ngôn ngữ</p>
+                                <h6 class="fw-bold">Tiếng Việt, tiếng Anh</h6>
+                            </div>
+
+                        </div>
+
+                        <button class="btn-layout mt-3 mb-5">Tải xuống sơ yếu lý lịch
+                            <span class="material-symbols-outlined">
+                                download
+                            </span> </button>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+        <section class="mt-3 bg-black py-3">
+            <div class="container">
+                <div class="row">
+                    <div class="col-6 col-md-3 mb-2 mb-md-0">
+                        <div class="bg-glass rounded p-2 text-light py-4 hover-photo-card eye-glass-hover ">
+                            <div class="d-flex flex-column align-items-center">
+                                <div
+                                    class="rounded-circle text-light p-3 bg-glass-light d-flex align-items-center photo  ">
+                                    <span class="material-symbols-outlined fs-4">
+                                        ar_on_you
+                                    </span>
+                                </div>
+
+                                <h2 class="fw-bold">113</h2>
+                                <span>Khách hàng hài lòng</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-2 mb-md-0">
+                        <div class="bg-glass rounded p-2 text-light py-4 hover-photo-card eye-glass-hover">
+                            <div class="d-flex flex-column align-items-center">
+                                <div
+                                    class="rounded-circle text-primary p-3 bg-glass-primary d-flex align-items-center photo  ">
+                                    <span class="material-symbols-outlined fs-4">
+                                        folder_code
+                                    </span>
+                                </div>
+
+                                <h2 class="fw-bold">62</h2>
+                                <span>Dự án</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-2 mb-md-0">
+                        <div class="bg-glass rounded p-2 text-light py-4 hover-photo-card eye-glass-hover">
+                            <div class="d-flex flex-column align-items-center">
+                                <div
+                                    class="rounded-circle text-warning p-3 bg-glass-warning d-flex align-items-center photo  ">
+                                    <span class="material-symbols-outlined fs-4">
+                                        contact_phone
+                                    </span>
+                                </div>
+
+                                <h2 class="fw-bold">1012</h2>
+                                <span>Giờ hỗ trợ</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-6 col-md-3 mb-2 mb-md-0">
+                        <div class="bg-glass rounded p-2 text-light py-4 hover-photo-card eye-glass-hover">
+                            <div class="d-flex flex-column align-items-center">
+                                <div
+                                    class="rounded-circle text-success p-3 bg-glass-success d-flex align-items-center photo  ">
+                                    <span class="material-symbols-outlined fs-4">
+                                        supervised_user_circle
+                                    </span>
+                                </div>
+
+                                <h2 class="fw-bold">3</h2>
+                                <span>Người làm chăm chỉ</span>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </section>
+
+
+
+        <section class="mt-5  mb-5">
+
+
+            <div class="container">
+                <div class="text-center">
+                    <h3 class="fw-bold section-title text-center">Kĩ năng</h3>
+                    <p>Tổng hợp các công nghệ và kiến thức tôi sử dụng trong quá trình phát triển web.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-6 mb-2 mb-md-0">
+                        <div class="rounded shadow p-2 bg-body-secondary">
+                            <h4 class="underline-left mb-4">Front-end Development</h4>
+
+                            <div class="mb-3 hover-text-under-progress eye-glass-hover">
+                                <h6 class="mb-1">HTML5/CSS3</h6>
+                                <div class="progress bg-light" role="progressbar" aria-label="Example with label"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 90%">90%</div>
+                                </div>
+
+                                <span class="text-under-progress fs-12px">Kiến thức chuyên môn về HTML5 và các kỹ thuật
+                                    CSS3 hiện đại.</span>
+
+                            </div>
+                            <div class="hover-text-under-progress eye-glass-hover">
+                                <h6 class="mb-1 ">Javascript</h6>
+                                <div class="progress bg-light" role="progressbar" aria-label="Example with label"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 75%">75%</div>
+                                </div>
+                                <span class="text-under-progress fs-12px">Thành thạo ES6+, thao tác DOM và các framework
+                                    hiện đại.</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-6">
+                        <div class="rounded shadow p-2 bg-body-secondary">
+                            <h4 class="underline-left mb-4">Back-end Development</h4>
+
+
+                            <div class="mb-3 hover-text-under-progress eye-glass-hover">
+                                <h6 class="mb-1">Java spring boot</h6>
+                                <div class="progress bg-light" role="progressbar" aria-label="Example with label"
+                                    aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 85%">85%</div>
+                                </div>
+
+                                <span class="text-under-progress fs-12px">Thành thạo Java Spring Boot trong phát triển
+                                    backend web mạnh mẽ, bảo mật và dễ mở rộng.</span>
+
+                            </div>
+                            <div class="hover-text-under-progress eye-glass-hover">
+                                <h6 class="mb-1 ">MYSQL</h6>
+                                <div class="progress bg-light" role="progressbar" aria-label="Example with label"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 75%">75%</div>
+                                </div>
+                                <span class="text-under-progress fs-12px">Thông thạo MySQL trong thiết kế và quản lý cơ
+                                    sở dữ liệu hiệu quả.</span>
+
+                            </div>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-4">
+            <div class="container">
+                <div class="text-center">
+                    <h3 class="fw-bold section-title text-center">Resume</h3>
+                    <p>Hành trình phát triển nghề nghiệp và những kinh nghiệm tôi đã tích lũy.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4 mb-2 mb-md-0">
+                        <div class="rounded shadow bg-body-secondary p-2 h-100">
+                            <div class="text-center mb-2 ">
+                                <div class="p-2 bg-secondary-subtle d-inline-block rounded">
+                                    <img src="/assets/photos/me-2.jpg" style="width: 180px;" class="rounded ">
+                                </div>
+                            </div>
+                            <h4 class="fw-bold">Tóm tắt chuyên môn</h4>
+                            <p>Là một Web Developer fullstack, tôi có chuyên môn trong việc xây dựng hệ thống web hoàn
+                                chỉnh, từ frontend thân thiện với người dùng đến backend ổn định và bảo mật. Tôi sử dụng
+                                thành thạo các công nghệ như Java Spring Boot, Bootstrap và MySQL để phát triển các giải
+                                pháp web hiệu quả và dễ mở rộng.
+
+                            </p>
+
+                            <h4 class="fw-bold">Thông tin liên hệ</h4>
+
+                            <p class="mb-2"><i class="fa-solid fa-location-dot" style="width: 30px;"></i>Đà Nẵng, Việt
+                                Nam</p>
+                            <p class="mb-2"><i class="fa-solid fa-envelope"
+                                    style="width: 30px;"></i>Cuongly.dev@gmail.com</p>
+                            <p class=""><i class="fa-solid fa-phone" style="width: 30px;"></i>+84 334366722</p>
+
+                            <h4 class="fw-bold">Kĩ năng chuyên môn</h4>
+
+                            <div class="mb-3">
+
+                                <p class="mb-0">Lập trình web</p>
+                                <div class="progress bg-white" role="progressbar" aria-label="Example with label"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 90%">90%</div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+
+                                <p class="mb-0">Thiết kế UI/UX</p>
+                                <div class="progress bg-white" role="progressbar" aria-label="Example with label"
+                                    aria-valuenow="85" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 85%">85%</div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+
+                                <p class="mb-0">Database</p>
+                                <div class="progress bg-white" role="progressbar" aria-label="Example with label"
+                                    aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 90%">90%</div>
+                                </div>
+                            </div>
+
+                            <div class="mb-3">
+
+                                <p class="mb-0">Quản lý dự án</p>
+                                <div class="progress bg-white" role="progressbar" aria-label="Example with label"
+                                    aria-valuenow="75" aria-valuemin="0" aria-valuemax="100">
+                                    <div class="progress-bar" style="width: 75%">75%</div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                    <div class="col-12 col-md-8">
+                        <h4 class="fw-bold d-flex align-items-center"><span class="material-symbols-outlined me-1">
+                                cases
+                            </span> Kinh nghiệm chuyên môn</h4>
+
+                        <div class="resume-item mb-3">
+                            <h5 class="fw-bold">Junior Developer</h5>
+                            <h6 class="fw-semibold">03/2025 - Hiện tại</h6>
+                            <p><i class="fa-solid fa-building me-1"></i>Danatech agency.</p>
+
+                            <ul class="p-0 d-block ps-4">
+                                <li>Dẫn dắt quá trình thiết kế kiến trúc hệ thống và triển khai các ứng dụng web quy mô
+                                    doanh nghiệp, đảm bảo khả năng mở rộng, hiệu suất cao và dễ bảo trì trong môi trường
+                                    sản xuất thực tế.</li>
+                                <li>Quản lý đội ngũ gồm 4 thành viên phát triển web, phân công công việc hợp lý, kiểm
+                                    tra chất lượng mã nguồn (code review), và định hướng áp dụng các phương pháp bảo mật
+                                    hiện đại để bảo vệ dữ liệu và hệ thống.</li>
+                                <li>Áp dụng chuyên sâu các kiến thức về quản lý và xử lý dữ liệu, bao gồm thiết kế cơ sở
+                                    dữ liệu quan hệ, tối ưu hóa truy vấn và đảm bảo tính nhất quán và bảo mật thông tin
+                                    người dùng.</li>
+                                <li>Xây dựng hệ thống máy chủ (server) riêng và triển khai các giải pháp bảo mật, phục
+                                    vụ cho việc quản lý dịch vụ hosting, hỗ trợ backup dữ liệu, theo dõi tài nguyên hệ
+                                    thống và bảo vệ máy chủ trước các rủi ro tấn công mạng.
+
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item mb-3">
+                            <h5 class="fw-bold">Fresher Developer</h5>
+                            <h6 class="fw-semibold">07/2024 - 02/2025</h6>
+                            <p><i class="fa-solid fa-building me-1"></i>Viral media.</p>
+
+                            <ul class="p-0 d-block ps-4">
+                                <li>Tham gia xây dựng website từ các yêu cầu cơ bản, thực hiện các chức năng chính và
+                                    giao diện người dùng, đảm bảo website hoạt động ổn định và đáp ứng mục tiêu ban đầu.
+                                </li>
+                                <li>Thiết kế cơ sở dữ liệu (database) phù hợp với yêu cầu chức năng, sử dụng các mô hình
+                                    dữ liệu đơn giản, tối ưu hóa cấu trúc bảng để phục vụ lưu trữ và truy vấn hiệu quả.
+                                </li>
+                                <li>Rèn luyện kỹ năng làm việc độc lập, chủ động tìm hiểu và giải quyết vấn đề, hoàn
+                                    thành các phần việc được giao một cách có trách nhiệm, đồng thời không ngừng học hỏi
+                                    để nâng cao năng lực chuyên môn.</li>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="resume-item mb-3">
+                            <h5 class="fw-bold">Freelancer</h5>
+                            <h6 class="fw-semibold">2023 - hiện tại</h6>
+
+                            <ul class="p-0 d-block ps-4">
+                                <li>Chủ động thiết kế và triển khai các dự án website theo yêu cầu của khách hàng, từ
+                                    việc phân tích nhu cầu, đề xuất giải pháp kỹ thuật cho đến hoàn thiện sản phẩm và
+                                    bàn giao.</li>
+                                <li>Thiết kế và xây dựng hệ thống cơ sở dữ liệu phù hợp với đặc thù từng dự án, đảm bảo
+                                    tính tổ chức, hiệu quả truy xuất và khả năng mở rộng trong tương lai.</li>
+                                <li>Làm việc độc lập với toàn quyền kiểm soát tiến độ và chất lượng sản phẩm, tự tổ chức
+                                    thời gian, tìm giải pháp khi gặp vấn đề kỹ thuật và đảm bảo cam kết với khách hàng.
+                                </li>
+                                <li>Quản lý toàn diện hệ thống server và domain, từ cấu hình máy chủ, bảo mật, backup dữ
+                                    liệu đến kết nối tên miền và triển khai website lên môi trường thực tế.</li>
+                            </ul>
+                        </div>
+
+
+                        <h4 class="fw-bold d-flex align-items-center"><span class="material-symbols-outlined me-1">
+                                school
+                            </span>Học vấn</h4>
+
+                        <div class="resume-item mb-3">
+                            <h5 class="fw-bold">CNTT - Ứng dụng phần mềm</h5>
+                            <h6 class="fw-semibold">2021 - 2023</h6>
+                            <p><i class="fa-solid fa-building me-1"></i>FPT College.</p>
+
+                            <ul class="p-0 d-block ps-4">
+                                <li>Từng theo học tại FPT College, nơi tôi được trang bị nền tảng kiến thức vững chắc về
+                                    công nghệ thông tin và kỹ năng làm việc thực tế trong môi trường doanh nghiệp.</li>
+                            </ul>
+                        </div>
+
+
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5">
+            <div class="container">
+
+                <div class="text-center">
+                    <h3 class="fw-bold section-title text-center">Team</h3>
+                    <p>Các thành viên khác trong đội ngũ của chúng tôi.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-4 mb-3">
+                        <div class="p-2 rounded bg-body-secondary shadow-sm d-flex align-items-center flex-column">
+
+                            <div class="text-center mb-2 ">
+                                <div class="p-2 bg-secondary-subtle d-inline-block rounded">
+                                    <img src="https://cdn.pixabay.com/photo/2023/02/18/11/00/icon-7797704_640.png"
+                                        style="width: 180px;" class="rounded ">
+                                </div>
+                            </div>
+
+                            <h4 class="fw-bold mb-0 d-flex align-items-center">Ngô Văn Giỏi</h4>
+                            <p>Web developer</p>
+
+
+                            <div
+                                class="rounded bg-light p-2 w-100 d-flex align-items-center justify-content-between mb-1">
+                                <div class="d-flex align-items-center">
+                                    <span class="material-symbols-outlined px-2">
+                                        mail
+                                    </span>
+                                    <span>user@gmail.com</span>
+                                </div>
+                                <a class="btn btn-dark btn-sm d-flex"><span class="material-symbols-outlined">
+                                        open_in_new
+                                    </span></a>
+
+                            </div>
+
+                            <div
+                                class="rounded bg-light p-2 w-100 d-flex align-items-center  justify-content-between mb-1">
+                                <div class="d-flex align-items-center">
+                                    <span class="material-symbols-outlined px-2">
+                                        perm_phone_msg
+                                    </span>
+
+                                    <span>0999999999</span>
+                                </div>
+
+
+                                <a class="btn btn-dark btn-sm d-flex"><span class="material-symbols-outlined">
+                                        open_in_new
+                                    </span></a>
+                            </div>
+
+                            <div style="height: 50px;"
+                                class="rounded bg-light p-2 w-100 d-flex align-items-center  justify-content-between mb-1">
+                                <div class="d-flex align-items-center">
+                                    <span class="material-symbols-outlined px-2">
+                                        distance
+                                    </span>
+
+                                    <span>Da Nang, Viet Nam</span>
+                                </div>
+
+
+
+                            </div>
+
+
+                            <a class="cssbuttons-io-button text-decoration-none mt-2">
+                                Xem thông tin
+                                <div class="icon">
+                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </div>
+                            </a>
+
+
+
+                        </div>
+                    </div>
+
+                     <div class="col-12 col-md-4 mb-3">
+                        <div class="p-2 rounded bg-body-secondary shadow-sm d-flex align-items-center flex-column">
+
+                            <div class="text-center mb-2 ">
+                                <div class="p-2 bg-secondary-subtle d-inline-block rounded">
+                                    <img src="https://cdn.pixabay.com/photo/2023/02/18/11/00/icon-7797704_640.png"
+                                        style="width: 180px;" class="rounded ">
+                                </div>
+                            </div>
+
+                            <h4 class="fw-bold mb-0 d-flex align-items-center">Trịnh Nguyễn Gia Bảo</h4>
+                            <p>Designer</p>
+
+
+                            <div
+                                class="rounded bg-light p-2 w-100 d-flex align-items-center justify-content-between mb-1">
+                                <div class="d-flex align-items-center">
+                                    <span class="material-symbols-outlined px-2">
+                                        mail
+                                    </span>
+                                    <span>user@gmail.com</span>
+                                </div>
+                                <a class="btn btn-dark btn-sm d-flex"><span class="material-symbols-outlined">
+                                        open_in_new
+                                    </span></a>
+
+                            </div>
+
+                            <div
+                                class="rounded bg-light p-2 w-100 d-flex align-items-center  justify-content-between mb-1">
+                                <div class="d-flex align-items-center">
+                                    <span class="material-symbols-outlined px-2">
+                                        perm_phone_msg
+                                    </span>
+
+                                    <span>0999999999</span>
+                                </div>
+
+
+                                <a class="btn btn-dark btn-sm d-flex"><span class="material-symbols-outlined">
+                                        open_in_new
+                                    </span></a>
+                            </div>
+
+                            <div style="height: 50px;"
+                                class="rounded bg-light p-2 w-100 d-flex align-items-center  justify-content-between mb-1">
+                                <div class="d-flex align-items-center">
+                                    <span class="material-symbols-outlined px-2">
+                                        distance
+                                    </span>
+
+                                    <span>Da Nang, Viet Nam</span>
+                                </div>
+
+
+
+                            </div>
+
+
+                            <a class="cssbuttons-io-button text-decoration-none mt-2">
+                                Xem thông tin
+                                <div class="icon">
+                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </div>
+                            </a>
+
+
+
+                        </div>
+                    </div>
+
+                     <div class="col-12 col-md-4 mb-3">
+                        <div class="p-2 rounded bg-body-secondary shadow-sm d-flex align-items-center flex-column">
+
+                            <div class="text-center mb-2 ">
+                                <div class="p-2 bg-secondary-subtle d-inline-block rounded">
+                                    <img src="https://cdn.pixabay.com/photo/2023/02/18/11/00/icon-7797704_640.png"
+                                        style="width: 180px;" class="rounded ">
+                                </div>
+                            </div>
+
+                            <h4 class="fw-bold mb-0 d-flex align-items-center">Nguyễn Hữu Tài Nhân</h4>
+                            <p>Web developer</p>
+
+
+                            <div
+                                class="rounded bg-light p-2 w-100 d-flex align-items-center justify-content-between mb-1">
+                                <div class="d-flex align-items-center">
+                                    <span class="material-symbols-outlined px-2">
+                                        mail
+                                    </span>
+                                    <span>user@gmail.com</span>
+                                </div>
+                                <a class="btn btn-dark btn-sm d-flex"><span class="material-symbols-outlined">
+                                        open_in_new
+                                    </span></a>
+
+                            </div>
+
+                            <div
+                                class="rounded bg-light p-2 w-100 d-flex align-items-center  justify-content-between mb-1">
+                                <div class="d-flex align-items-center">
+                                    <span class="material-symbols-outlined px-2">
+                                        perm_phone_msg
+                                    </span>
+
+                                    <span>0999999999</span>
+                                </div>
+
+
+                                <a class="btn btn-dark btn-sm d-flex"><span class="material-symbols-outlined">
+                                        open_in_new
+                                    </span></a>
+                            </div>
+
+                            <div style="height: 50px;"
+                                class="rounded bg-light p-2 w-100 d-flex align-items-center  justify-content-between mb-1">
+                                <div class="d-flex align-items-center">
+                                    <span class="material-symbols-outlined px-2">
+                                        distance
+                                    </span>
+
+                                    <span>Da Nang, Viet Nam</span>
+                                </div>
+
+
+
+                            </div>
+
+
+                            <a class="cssbuttons-io-button text-decoration-none mt-2">
+                                Xem thông tin
+                                <div class="icon">
+                                    <svg height="24" width="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                        <path d="M0 0h24v24H0z" fill="none"></path>
+                                        <path
+                                            d="M16.172 11l-5.364-5.364 1.414-1.414L20 12l-7.778 7.778-1.414-1.414L16.172 13H4v-2z"
+                                            fill="currentColor"></path>
+                                    </svg>
+                                </div>
+                            </a>
+
+
+
+                        </div>
+                    </div>
+
+
+
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-4">
+            <div class="container">
+                <div class="text-center">
+                    <h3 class="fw-bold section-title text-center">Liên hệ</h3>
+                    <p>Liên hệ với tôi để hợp tác, đặt làm website hoặc trao đổi công việc lập trình.</p>
+                </div>
+
+                <div class="row">
+                    <div class="col-12 col-md-5">
+                        <div class="bg-black p-3 rounded shadow text-white">
+                            <h3>Thông tin liên hệ</h3>
+                            <p class="text-secondary">Thông tin liên hệ để làm việc, tư vấn hoặc đặt dịch vụ thiết kế web.</p>
+
+                            <div class="d-flex align-items-start mb-3">
+                                <span class="material-symbols-outlined p-2 bg-glass-light rounded-circle me-3">
+globe_location_pin
+</span>
+<div>
+    <h5 class="fw-bold">Địa chỉ của chúng tôi</h5>
+    <p >Đà nẵng, Việt Nam</p>
+</div>
+                            </div>
+
+                            <div class="d-flex align-items-start mb-3">
+                                <span class="material-symbols-outlined p-2 bg-glass-light rounded-circle me-3">
+phone_enabled
+</span>
+<div>
+    <h5 class="fw-bold">Số điện thoại</h5>
+    <p>0334366722</p>
+</div>
+                            </div>
+
+                            <div class="d-flex align-items-start ">
+                                <span class="material-symbols-outlined p-2 bg-glass-light rounded-circle me-3">
+globe_location_pin
+</span>
+<div>
+    <h5 class="fw-bold">Địa chỉ Email</h5>
+    <p class="mb-0">cuongly.dev@gmail.com</p>
+</div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="col-12 col-md-7">
+                       <div class="bg-glass-light p-3 rounded shadow">
+                           <h3>Hỗ trợ</h3>
+                            <p class="text-secondary">Điền form bên dưới để nhận hỗ trợ nhanh chóng về dịch vụ lập trình web.</p>
+                            <form >
+                                <div class="row">
+<div class="col-12 col-md-6">
+ <div class="form-floating mb-3 ">
+  <input type="text" class="form-control" id="floatingInput" placeholder="Nguyễn văn A" required>
+  <label for="floatingInput">Tên của bạn</label>
+</div>
+</div>
+                               <div class="col-12 col-md-6">
+ <div class="form-floating mb-3">
+  <input type="email" class="form-control" id="floatingInput" placeholder="name@example.com" required>
+  <label for="floatingInput">Email address</label>
+</div>
+                               </div>
+
+                               <div class="col-12">
+ <div class="form-floating mb-3 ">
+  <input type="text" class="form-control" id="floatingInput" placeholder="Lập trình web..." required>
+  <label for="floatingInput">Tiêu đề</label>
+</div>
+</div>
+
+<div class="col-12">
+<div class="form-floating">
+  <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px" required></textarea>
+  <label for="floatingTextarea2" >Nội dung</label>
+</div>
+</div>
+
+<div class="col-12 mt-3">
+<button class="btn btn-primary w-100">Gửi</button>
+</div>
+                                </div>
+                            </form>
+                       </div>
+                    </div>
+                </div>
+
+                <div>
+            </div>
+        </section>
+
+    </main>
+
+    <section class="menu-element">
+        <div class="d-flex shadow-sm border bg-black text-light rounded p-1">
+            <a class="p-2 px-3 menu-element-item rounded d-flex align-items-center justify-content-center text-decoration-none"
+                href="#" data-tooltip="Trang chủ"><span class="material-symbols-outlined">
+                    home_app_logo
+                </span></a>
+
+            <a class="p-2 px-3 menu-element-item rounded d-flex align-items-center justify-content-center text-decoration-none"
+                href="#" data-tooltip="Cửa hàng & dịch vụ"><span class="material-symbols-outlined">
+                    storefront
+                </span></a>
+
+            <a class="p-2 px-3 menu-element-item rounded d-flex align-items-center justify-content-center text-decoration-none"
+                href="#" data-tooltip="Blog"><span class="material-symbols-outlined">
+                    web_stories
+                </span></a>
+
+            <a class="p-2 px-3 menu-element-item rounded d-flex align-items-center justify-content-center text-decoration-none"
+                href="#" data-tooltip="Account"> <span class="material-symbols-outlined">
+                    account_box
+                </span></a>
+        </div>
+    </section>
+
+    <footer class="mt-4">
+
+        <div class="container py-5 border-top text-center">
+            <p class="mb-0">© Copyright <span class="fw-semibold">Quang Cuong</span> All Rights Reserved</p>
+            <p class="fs-12px">Designed By Quang Cuong</p>
+        </div>
+
+    </footer>
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@srexi/purecounterjs@1.5.0/dist/purecounter_vanilla.js"></script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+    <script src="/assets/js/typewriter.js"></script>
+
+    <script src="/assets/js/net-canvas.js"></script>
+
+
+    <script>
+        new PureCounter();
+    </script>
+
+</body>
+
+</html>
